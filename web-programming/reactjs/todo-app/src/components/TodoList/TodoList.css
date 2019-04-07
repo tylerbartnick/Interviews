@@ -1,0 +1,21 @@
+/* TodoList.css */
+
+i.icon-green {
+    color: #47AD59;
+}
+
+i.icon-red {
+    color: #EC373B;
+}
+
+.completed-todo {
+    text-decoration: line-through;
+}
+
+.todo-list-item-left {
+    width: 75%;
+}
+
+.todo-list-item-right {
+    width: 25%;
+}
