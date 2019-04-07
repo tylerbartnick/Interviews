@@ -9,9 +9,9 @@ public class TCPClient {
 	private PrintWriter out;
 	private BufferedReader in;
 
-	public TCPClient(String ip, int port) {
+	public TCPClient(String host, int port) {
 		try {
-			this.socket = new Socket(ip, port);
+			this.socket = new Socket(host, port);
 			this.out = new PrintWriter(this.socket.getOutputStream(), true);
 			this.in = new BufferedReader(new InputStreamReader(this.socket.getInputStream()));
 		} catch (IOException ex) {
